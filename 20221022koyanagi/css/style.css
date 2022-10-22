@@ -1,0 +1,26 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px;
+}
+
+p {
+  font-size: 32px;
+  color: blue;
+  font-weight: bold;
+  display: inline-block;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  color: blue;
+  font-weight: bold;
+}
+
+li:not(last-child) {
+  margin-right: 30px
+}
