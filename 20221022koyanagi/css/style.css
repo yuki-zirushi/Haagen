@@ -24,3 +24,27 @@ li {
 li:not(last-child) {
   margin-right: 30px
 }
+
+main {
+  margin-top: 90px;
+  position: relative;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: lighter;
+  padding-top: 290px;
+}
+
+.back {
+  background-color: navy;
+  height: 180px;
+  margin-right: 400px;
+}
+
+img {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 50%;
+}
